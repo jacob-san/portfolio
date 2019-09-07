@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "jacobthedev.club/static/css/main.94fbc8b6.chunk.css",
+    "main.js": "jacobthedev.club/static/js/main.76beb4e2.chunk.js",
+    "main.js.map": "jacobthedev.club/static/js/main.76beb4e2.chunk.js.map",
+    "runtime~main.js": "jacobthedev.club/static/js/runtime~main.b40f750f.js",
+    "runtime~main.js.map": "jacobthedev.club/static/js/runtime~main.b40f750f.js.map",
+    "static/js/2.d79d9d62.chunk.js": "jacobthedev.club/static/js/2.d79d9d62.chunk.js",
+    "static/js/2.d79d9d62.chunk.js.map": "jacobthedev.club/static/js/2.d79d9d62.chunk.js.map",
+    "index.html": "jacobthedev.club/index.html",
+    "precache-manifest.f96f2278d7ae47291d3c9194339b9a85.js": "jacobthedev.club/precache-manifest.f96f2278d7ae47291d3c9194339b9a85.js",
+    "service-worker.js": "jacobthedev.club/service-worker.js",
+    "static/css/main.94fbc8b6.chunk.css.map": "jacobthedev.club/static/css/main.94fbc8b6.chunk.css.map",
+    "static/media/logo.svg": "jacobthedev.club/static/media/logo.5d5d9eef.svg"
+  }
+}
