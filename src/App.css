@@ -1,33 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Josefin+Sans&display=swap');
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  font-size: 10px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #32312f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f5b21f;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header span {
+  font-size: 5rem;
+  /* text-transform: capitalize; */
+  font-family: 'Dancing Script', cursive;
 }
