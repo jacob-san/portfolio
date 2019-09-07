@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "jacobthedev.club",
+  "homepage": "https://jacob-san.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
