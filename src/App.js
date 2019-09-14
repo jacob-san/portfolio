@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import Typist from 'react-typist';
 import projects from './data/projects.json';
-import { images, gifs } from './data/images.js';
+import { images } from './data/images.js';
 
 const scrollToRef = ref =>
   ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -65,13 +65,13 @@ const App = () => {
 };
 
 const Card = ({ title, name, link, owner, image, live, gif, index, code }) => {
-  const onMouseOverImage = (e, gif) => (e.currentTarget.src = gifs[code]);
-  const onMouseOutImage = (e, img) => (e.currentTarget.src = images[code]);
+  // const onMouseOverImage = (e, gif) => (e.currentTarget.src = gifs[code]);
+  // const onMouseOutImage = (e, img) => (e.currentTarget.src = images[code]);
   return (
     <div className="project-card">
       <img
-        onMouseOver={onMouseOverImage}
-        onMouseOut={onMouseOutImage}
+        // onMouseOver={onMouseOverImage}
+        // onMouseOut={onMouseOutImage}
         className="project-img"
         src={images[code]}
         alt={name}
