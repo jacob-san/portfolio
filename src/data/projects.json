@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Abu Dhabi Govt Digital Services",
+    "name": "TAMM",
+    "code": "tamm",
+    "owner": "Abu Dhabi Smart Solutions & Services Authority",
+    "image": 1,
+    "link": "https://tamm.abudhabi.ae"
+  },
+  {
+    "title": "Wealth Management",
+    "name": "Exelcius Prime Portal",
+    "code": "ep",
+    "owner": "Exelcius Prime",
+    "image": 1,
+    "gif": "",
+    "live": true,
+    "link": "https://exelciusprime.com"
+  },
+  {
+    "title": "Evaluation tool for large scale projects",
+    "name": "Site Portfolio tool",
+    "owner": "IPA Global Inc. CA",
+    "code": "spt",
+    "image": 1,
+    "gif": "",
+    "live": true,
+    "link": "https://spt.ipaglobal.com"
+  },
+  {
+    "title": "Contact Management Platform",
+    "name": "Tralcer",
+    "code": "tralcer",
+    "owner": "tralcer",
+    "image": 1,
+    "gif": "",
+    "live": true,
+    "link": "https://app.tralcer.com"
+  },
+  {
+    "title": "Employee Onboarding",
+    "name": "Employee Onboarding POC",
+    "code": "itcan",
+    "owner": "Itcan",
+    "image": 1,
+    "gif": "",
+    "live": false,
+    "link": ""
+  },
+  {
+    "title": "Admin Dashboard",
+    "name": "Yaytrade Dashboard POC",
+    "code": "yaytrade",
+    "owner": "Ytrade Group",
+    "image": 1,
+    "gif": "",
+    "live": false,
+    "link": ""
+  }
+]

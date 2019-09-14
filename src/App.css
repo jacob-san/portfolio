@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Josefin+Sans&display=swap');
+body * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #32312f;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
   font-size: 10px;
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #32312f;
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.welcome-message {
+  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,10 +27,200 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #f5b21f;
+  transition: all 5s ease-in;
 }
 
-.App-header span {
+.welcome-message .hello {
   font-size: 5rem;
   /* text-transform: capitalize; */
   font-family: 'Dancing Script', cursive;
+  margin-bottom: 16px;
+}
+
+#scroll {
+  position: absolute;
+  padding-top: 56px;
+  font-size: 16px;
+  bottom: 40px;
+  right: 34px;
+}
+
+#scroll div {
+  text-decoration: none;
+  color: #f5b21f;
+  cursor: pointer;
+}
+
+#scroll div span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #f5b21f;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#scroll div span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #f5b21f;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.projects-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.projects-container h2,
+.contact h2 {
+  font-size: 1.6rem;
+  color: #f5b21f;
+  margin-bottom: 12px;
+}
+
+.projects {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects .project-card {
+  width: 30%;
+  max-height: 368px;
+  background: #fffefe;
+  border-radius: 4px;
+  margin-top: 32px;
+}
+
+.projects .project-card:hover {
+  background-color: #1b1b1b;
+  transition: all 200ms ease-in;
+}
+
+.projects .project-card:hover .card-title {
+  color: white;
+}
+
+.projects .project-card:hover .card-info a {
+  color: #f5b21f;
+}
+
+.projects .project-card .project-img {
+  height: 156px;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  cursor: pointer;
+}
+
+.projects .project-card .card-info {
+  padding: 20px;
+}
+
+.card-info .card-title {
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  min-height: 46px;
+}
+
+.card-info .card-description {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #ffaf00;
+}
+
+.card-info .card-extra-info {
+  font-size: 0.9rem;
+  color: darkgray;
+  min-height: 30px;
+  margin-bottom: 14px;
+}
+
+.card-info .card-link {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.contact {
+  margin: 50px;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact .info {
+  font-size: 1.4rem;
+  color: gray;
+}
+
+.contact .info p {
+  margin-bottom: 10px;
+}
+
+.more-tag {
+  text-align: right;
+  font-size: 1.4rem;
+  color: #ffaf00;
+  margin: 28px;
+}
+
+@media (max-width: 576px) {
+  .projects {
+    justify-content: space-around;
+  }
+  .projects .project-card {
+    width: 90%;
+    max-height: 368px;
+    margin-top: 32px;
+  }
 }
