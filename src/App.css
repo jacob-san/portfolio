@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:700|Josefin+Sans&display=swap");
 body * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
 .App {
   /* text-align: center; */
   font-size: 10px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .container {
@@ -33,7 +33,7 @@ body {
 .welcome-message .hello {
   font-size: 5rem;
   /* text-transform: capitalize; */
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   margin-bottom: 16px;
 }
 
@@ -66,7 +66,7 @@ body {
   position: absolute;
   top: 10px;
   left: 50%;
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   margin-left: -3px;
@@ -123,7 +123,6 @@ body {
 }
 
 .projects {
-  min-height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
