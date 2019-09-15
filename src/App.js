@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
-import './App.css';
-import Typist from 'react-typist';
-import projects from './data/projects.json';
-import { images } from './data/images.js';
+import React, { useEffect } from "react";
+import "./App.css";
+import Typist from "react-typist";
+import projects from "./data/projects.json";
+import { images } from "./data/images.js";
 
 const scrollToRef = ref =>
-  ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
 
 const App = () => {
   const projectsRef = React.createRef();
@@ -32,7 +32,7 @@ const App = () => {
             <div id="scroll" onClick={scrollToProjects}>
               <div>
                 <span></span>
-                View
+                See more
               </div>
             </div>
           </Typist>
@@ -81,8 +81,8 @@ const Card = ({ title, name, link, owner, image, live, gif, index, code }) => {
         <p className="card-description">{name}</p>
         <p className="card-extra-info">{owner}</p>
         <div className="card-link">
-          <a href={link || 'javascript:void(0)'} target="_blank">
-            {link ? 'See' : ''}
+          <a href={link || "javascript:void(0)"} target="_blank">
+            {link ? "View" : ""}
           </a>
         </div>
       </div>
