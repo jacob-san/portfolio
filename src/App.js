@@ -81,7 +81,11 @@ const Card = ({ title, name, link, owner, image, live, gif, index, code }) => {
         <p className="card-description">{name}</p>
         <p className="card-extra-info">{owner}</p>
         <div className="card-link">
-          <a href={link || "javascript:void(0)"} target="_blank">
+          <a
+            href={link || "javascript:void(0)"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {link ? "View" : ""}
           </a>
         </div>
