@@ -222,4 +222,7 @@ body {
     max-height: 368px;
     margin-top: 32px;
   }
+  .welcome-message .hello {
+    font-size: 3rem;
+  }
 }
