@@ -38,10 +38,10 @@
     "link": "https://app.tralcer.com"
   },
   {
-    "title": "Employee Onboarding",
-    "name": "Employee Onboarding POC",
-    "code": "itcan",
-    "owner": "Itcan",
+    "title": "Dashboard",
+    "name": "Customer portal",
+    "code": "ep_portal",
+    "owner": "EP",
     "image": 1,
     "gif": "",
     "live": false,
