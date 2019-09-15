@@ -27,7 +27,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #f5b21f;
-  transition: all 5s ease-in;
+  transition: all 250ms ease-in;
 }
 
 .welcome-message .hello {
