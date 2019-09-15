@@ -214,6 +214,9 @@ body {
 }
 
 @media (max-width: 576px) {
+  .projects-container h2 {
+    padding: 0 20px;
+  }
   .projects {
     justify-content: space-around;
   }
