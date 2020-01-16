@@ -9,13 +9,13 @@
   },
   {
     "title": "Wealth Management",
-    "name": "Exelcius Prime Portal",
+    "name": "Futurd",
     "code": "ep",
-    "owner": "Exelcius Prime",
+    "owner": "Futurd",
     "image": 1,
     "gif": "",
-    "live": true,
-    "link": "https://exelciusprime.com"
+    "live": false,
+    "link": ""
   },
   {
     "title": "Evaluation tool for large scale projects",
